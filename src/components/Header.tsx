@@ -14,6 +14,9 @@ const Header = () => {
             <a href="#accueil" className="text-gray-700 hover:text-blue-600 transition-colors">
               Accueil
             </a>
+            <a href="#a-propos" className="text-gray-700 hover:text-blue-600 transition-colors">
+              À propos
+            </a>
             <a href="#produits" className="text-gray-700 hover:text-blue-600 transition-colors">
               Nos Produits
             </a>
