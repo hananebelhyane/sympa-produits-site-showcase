@@ -1,6 +1,4 @@
 
-import { Button } from "@/components/ui/button";
-
 const Hero = () => {
   return (
     <section id="accueil" className="bg-gradient-to-br from-blue-50 to-green-50 py-20">
@@ -14,12 +12,6 @@ const Hero = () => {
             Découvrez notre sélection de produits artisanaux et équitables, 
             créés avec passion par les membres de notre association pour soutenir des causes qui nous tiennent à cœur.
           </p>
-          <Button 
-            size="lg" 
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
-          >
-            Découvrir nos produits
-          </Button>
         </div>
       </div>
     </section>
