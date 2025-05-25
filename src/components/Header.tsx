@@ -7,8 +7,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <Heart className="h-8 w-8 text-blue-600" />
-            <h1 className="text-xl font-bold text-gray-900">Association Solidaire</h1>
+            <Heart className="h-8 w-8 text-red-600" />
+            <h1 className="text-xl font-bold text-gray-900">HNA MAAK</h1>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#accueil" className="text-gray-700 hover:text-blue-600 transition-colors">
@@ -18,7 +18,7 @@ const Header = () => {
               À propos
             </a>
             <a href="#produits" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Nos Produits
+              Découvrir les créations
             </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact

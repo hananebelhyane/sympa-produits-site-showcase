@@ -1,52 +1,51 @@
-
 import { Heart, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-gray-900 text-white py-12">
+    <footer id="contact" className="py-12" style={{ backgroundColor: "#A31D1D", color: "#F8F2DE" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Heart className="h-6 w-6 text-blue-400" />
-              <h3 className="text-xl font-bold">Association Solidaire</h3>
+              <Heart className="h-6 w-6" style={{ color: "#D84040" }} />
+              <h3 className="text-xl font-bold" style={{ color: "#F8F2DE" }}>BARAKA IDMAN</h3>
             </div>
-            <p className="text-gray-300 mb-4">
-              Une association engagée pour le développement durable et l'économie solidaire.
+            <p className="mb-4" style={{ color: "#F8F2DE" }}>
+              Une association engagée pour la lutte contre l’addiction et la solidarité au Maroc.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <h4 className="font-semibold mb-4" style={{ color: "#F8F2DE" }}>Contact</h4>
             <div className="space-y-2">
-              <div className="flex items-center space-x-2 text-gray-300">
+              <div className="flex items-center space-x-2" style={{ color: "#F8F2DE" }}>
                 <Mail className="h-4 w-4" />
-                <span>contact@association-solidaire.fr</span>
+                <span>contact@barakaidman.ma</span>
               </div>
-              <div className="flex items-center space-x-2 text-gray-300">
+              <div className="flex items-center space-x-2" style={{ color: "#F8F2DE" }}>
                 <Phone className="h-4 w-4" />
-                <span>01 23 45 67 89</span>
+                <span>05 22 33 44 55</span>
               </div>
-              <div className="flex items-center space-x-2 text-gray-300">
+              <div className="flex items-center space-x-2" style={{ color: "#F8F2DE" }}>
                 <MapPin className="h-4 w-4" />
-                <span>123 Rue de la Solidarité, 75000 Paris</span>
+                <span>Centre de TAddictologie El Mellah, Maroc</span>
               </div>
             </div>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Nos Valeurs</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li>• Commerce équitable</li>
-              <li>• Production locale</li>
-              <li>• Développement durable</li>
+            <h4 className="font-semibold mb-4" style={{ color: "#A31D1D" }}>Nos Valeurs</h4>
+            <ul className="space-y-2" style={{ color: "#A31D1D" }}>
               <li>• Solidarité sociale</li>
+              <li>• Réinsertion</li>
+              <li>• Prévention</li>
+              <li>• Accompagnement</li>
             </ul>
           </div>
         </div>
         
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Association Solidaire. Tous droits réservés.</p>
+        <div className="border-t mt-8 pt-8 text-center" style={{ borderColor: "#D84040", color: "#F8F2DE" }}>
+          <p>&copy; 2024 BARAKA IDMAN. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
